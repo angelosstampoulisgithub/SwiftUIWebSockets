@@ -1,13 +1,13 @@
 //
-//  SwiftWebSocketsUITestsLaunchTests.swift
-//  SwiftWebSocketsUITests
+//  SwiftUIWebSocketsUITestsLaunchTests.swift
+//  SwiftUIWebSocketsUITests
 //
 //  Created by Angelos Staboulis on 16/11/24.
 //
 
 import XCTest
 
-final class SwiftWebSocketsUITestsLaunchTests: XCTestCase {
+final class SwiftUIWebSocketsUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

@@ -7,80 +7,80 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D679AB682CE8EC58006CDFEA /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = D679AB672CE8EC58006CDFEA /* Starscream */; };
+		D686B1422CE934E300FBDDEB /* SocketIO in Frameworks */ = {isa = PBXBuildFile; productRef = D686B1412CE934E300FBDDEB /* SocketIO */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D6750CF92CE8D717008A5DFA /* PBXContainerItemProxy */ = {
+		D6750CA02CE8BEE3008A5DFA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D6750CDA2CE8D714008A5DFA /* Project object */;
+			containerPortal = D6750C872CE8BEE1008A5DFA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D6750CE12CE8D714008A5DFA;
-			remoteInfo = SwiftWebSockets;
+			remoteGlobalIDString = D6750C8E2CE8BEE1008A5DFA;
+			remoteInfo = SwiftUIWebSockets;
 		};
-		D6750D032CE8D717008A5DFA /* PBXContainerItemProxy */ = {
+		D6750CAA2CE8BEE3008A5DFA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D6750CDA2CE8D714008A5DFA /* Project object */;
+			containerPortal = D6750C872CE8BEE1008A5DFA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D6750CE12CE8D714008A5DFA;
-			remoteInfo = SwiftWebSockets;
+			remoteGlobalIDString = D6750C8E2CE8BEE1008A5DFA;
+			remoteInfo = SwiftUIWebSockets;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D6750CE22CE8D714008A5DFA /* SwiftWebSockets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftWebSockets.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6750CF82CE8D717008A5DFA /* SwiftWebSocketsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftWebSocketsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6750D022CE8D717008A5DFA /* SwiftWebSocketsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftWebSocketsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6750C8F2CE8BEE1008A5DFA /* SwiftUIWebSockets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIWebSockets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6750C9F2CE8BEE3008A5DFA /* SwiftUIWebSocketsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIWebSocketsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6750CA92CE8BEE3008A5DFA /* SwiftUIWebSocketsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIWebSocketsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		D6750D0A2CE8D717008A5DFA /* Exceptions for "SwiftWebSockets" folder in "SwiftWebSockets" target */ = {
+		D6750CBD2CE8BEF4008A5DFA /* Exceptions for "SwiftUIWebSockets" folder in "SwiftUIWebSockets" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = D6750CE12CE8D714008A5DFA /* SwiftWebSockets */;
+			target = D6750C8E2CE8BEE1008A5DFA /* SwiftUIWebSockets */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		D6750CE42CE8D714008A5DFA /* SwiftWebSockets */ = {
+		D6750C912CE8BEE1008A5DFA /* SwiftUIWebSockets */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				D6750D0A2CE8D717008A5DFA /* Exceptions for "SwiftWebSockets" folder in "SwiftWebSockets" target */,
+				D6750CBD2CE8BEF4008A5DFA /* Exceptions for "SwiftUIWebSockets" folder in "SwiftUIWebSockets" target */,
 			);
-			path = SwiftWebSockets;
+			path = SwiftUIWebSockets;
 			sourceTree = "<group>";
 		};
-		D6750CFB2CE8D717008A5DFA /* SwiftWebSocketsTests */ = {
+		D6750CA22CE8BEE3008A5DFA /* SwiftUIWebSocketsTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SwiftWebSocketsTests;
+			path = SwiftUIWebSocketsTests;
 			sourceTree = "<group>";
 		};
-		D6750D052CE8D717008A5DFA /* SwiftWebSocketsUITests */ = {
+		D6750CAC2CE8BEE3008A5DFA /* SwiftUIWebSocketsUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SwiftWebSocketsUITests;
+			path = SwiftUIWebSocketsUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D6750CDF2CE8D714008A5DFA /* Frameworks */ = {
+		D6750C8C2CE8BEE1008A5DFA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D679AB682CE8EC58006CDFEA /* Starscream in Frameworks */,
+				D686B1422CE934E300FBDDEB /* SocketIO in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6750CF52CE8D717008A5DFA /* Frameworks */ = {
+		D6750C9C2CE8BEE3008A5DFA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6750CFF2CE8D717008A5DFA /* Frameworks */ = {
+		D6750CA62CE8BEE3008A5DFA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -90,22 +90,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D6750CD92CE8D714008A5DFA = {
+		D6750C862CE8BEE1008A5DFA = {
 			isa = PBXGroup;
 			children = (
-				D6750CE42CE8D714008A5DFA /* SwiftWebSockets */,
-				D6750CFB2CE8D717008A5DFA /* SwiftWebSocketsTests */,
-				D6750D052CE8D717008A5DFA /* SwiftWebSocketsUITests */,
-				D6750CE32CE8D714008A5DFA /* Products */,
+				D6750C912CE8BEE1008A5DFA /* SwiftUIWebSockets */,
+				D6750CA22CE8BEE3008A5DFA /* SwiftUIWebSocketsTests */,
+				D6750CAC2CE8BEE3008A5DFA /* SwiftUIWebSocketsUITests */,
+				D6750C902CE8BEE1008A5DFA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D6750CE32CE8D714008A5DFA /* Products */ = {
+		D6750C902CE8BEE1008A5DFA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D6750CE22CE8D714008A5DFA /* SwiftWebSockets.app */,
-				D6750CF82CE8D717008A5DFA /* SwiftWebSocketsTests.xctest */,
-				D6750D022CE8D717008A5DFA /* SwiftWebSocketsUITests.xctest */,
+				D6750C8F2CE8BEE1008A5DFA /* SwiftUIWebSockets.app */,
+				D6750C9F2CE8BEE3008A5DFA /* SwiftUIWebSocketsTests.xctest */,
+				D6750CA92CE8BEE3008A5DFA /* SwiftUIWebSocketsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,138 +113,138 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D6750CE12CE8D714008A5DFA /* SwiftWebSockets */ = {
+		D6750C8E2CE8BEE1008A5DFA /* SwiftUIWebSockets */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D6750D0B2CE8D717008A5DFA /* Build configuration list for PBXNativeTarget "SwiftWebSockets" */;
+			buildConfigurationList = D6750CB32CE8BEE3008A5DFA /* Build configuration list for PBXNativeTarget "SwiftUIWebSockets" */;
 			buildPhases = (
-				D6750CDE2CE8D714008A5DFA /* Sources */,
-				D6750CDF2CE8D714008A5DFA /* Frameworks */,
-				D6750CE02CE8D714008A5DFA /* Resources */,
+				D6750C8B2CE8BEE1008A5DFA /* Sources */,
+				D6750C8C2CE8BEE1008A5DFA /* Frameworks */,
+				D6750C8D2CE8BEE1008A5DFA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				D6750CE42CE8D714008A5DFA /* SwiftWebSockets */,
+				D6750C912CE8BEE1008A5DFA /* SwiftUIWebSockets */,
 			);
-			name = SwiftWebSockets;
+			name = SwiftUIWebSockets;
 			packageProductDependencies = (
-				D679AB672CE8EC58006CDFEA /* Starscream */,
+				D686B1412CE934E300FBDDEB /* SocketIO */,
 			);
-			productName = SwiftWebSockets;
-			productReference = D6750CE22CE8D714008A5DFA /* SwiftWebSockets.app */;
+			productName = SwiftUIWebSockets;
+			productReference = D6750C8F2CE8BEE1008A5DFA /* SwiftUIWebSockets.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D6750CF72CE8D717008A5DFA /* SwiftWebSocketsTests */ = {
+		D6750C9E2CE8BEE3008A5DFA /* SwiftUIWebSocketsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D6750D102CE8D717008A5DFA /* Build configuration list for PBXNativeTarget "SwiftWebSocketsTests" */;
+			buildConfigurationList = D6750CB62CE8BEE3008A5DFA /* Build configuration list for PBXNativeTarget "SwiftUIWebSocketsTests" */;
 			buildPhases = (
-				D6750CF42CE8D717008A5DFA /* Sources */,
-				D6750CF52CE8D717008A5DFA /* Frameworks */,
-				D6750CF62CE8D717008A5DFA /* Resources */,
+				D6750C9B2CE8BEE3008A5DFA /* Sources */,
+				D6750C9C2CE8BEE3008A5DFA /* Frameworks */,
+				D6750C9D2CE8BEE3008A5DFA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D6750CFA2CE8D717008A5DFA /* PBXTargetDependency */,
+				D6750CA12CE8BEE3008A5DFA /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				D6750CFB2CE8D717008A5DFA /* SwiftWebSocketsTests */,
+				D6750CA22CE8BEE3008A5DFA /* SwiftUIWebSocketsTests */,
 			);
-			name = SwiftWebSocketsTests;
+			name = SwiftUIWebSocketsTests;
 			packageProductDependencies = (
 			);
-			productName = SwiftWebSocketsTests;
-			productReference = D6750CF82CE8D717008A5DFA /* SwiftWebSocketsTests.xctest */;
+			productName = SwiftUIWebSocketsTests;
+			productReference = D6750C9F2CE8BEE3008A5DFA /* SwiftUIWebSocketsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D6750D012CE8D717008A5DFA /* SwiftWebSocketsUITests */ = {
+		D6750CA82CE8BEE3008A5DFA /* SwiftUIWebSocketsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D6750D132CE8D717008A5DFA /* Build configuration list for PBXNativeTarget "SwiftWebSocketsUITests" */;
+			buildConfigurationList = D6750CB92CE8BEE3008A5DFA /* Build configuration list for PBXNativeTarget "SwiftUIWebSocketsUITests" */;
 			buildPhases = (
-				D6750CFE2CE8D717008A5DFA /* Sources */,
-				D6750CFF2CE8D717008A5DFA /* Frameworks */,
-				D6750D002CE8D717008A5DFA /* Resources */,
+				D6750CA52CE8BEE3008A5DFA /* Sources */,
+				D6750CA62CE8BEE3008A5DFA /* Frameworks */,
+				D6750CA72CE8BEE3008A5DFA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D6750D042CE8D717008A5DFA /* PBXTargetDependency */,
+				D6750CAB2CE8BEE3008A5DFA /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				D6750D052CE8D717008A5DFA /* SwiftWebSocketsUITests */,
+				D6750CAC2CE8BEE3008A5DFA /* SwiftUIWebSocketsUITests */,
 			);
-			name = SwiftWebSocketsUITests;
+			name = SwiftUIWebSocketsUITests;
 			packageProductDependencies = (
 			);
-			productName = SwiftWebSocketsUITests;
-			productReference = D6750D022CE8D717008A5DFA /* SwiftWebSocketsUITests.xctest */;
+			productName = SwiftUIWebSocketsUITests;
+			productReference = D6750CA92CE8BEE3008A5DFA /* SwiftUIWebSocketsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D6750CDA2CE8D714008A5DFA /* Project object */ = {
+		D6750C872CE8BEE1008A5DFA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					D6750CE12CE8D714008A5DFA = {
+					D6750C8E2CE8BEE1008A5DFA = {
 						CreatedOnToolsVersion = 16.0;
 					};
-					D6750CF72CE8D717008A5DFA = {
+					D6750C9E2CE8BEE3008A5DFA = {
 						CreatedOnToolsVersion = 16.0;
-						TestTargetID = D6750CE12CE8D714008A5DFA;
+						TestTargetID = D6750C8E2CE8BEE1008A5DFA;
 					};
-					D6750D012CE8D717008A5DFA = {
+					D6750CA82CE8BEE3008A5DFA = {
 						CreatedOnToolsVersion = 16.0;
-						TestTargetID = D6750CE12CE8D714008A5DFA;
+						TestTargetID = D6750C8E2CE8BEE1008A5DFA;
 					};
 				};
 			};
-			buildConfigurationList = D6750CDD2CE8D714008A5DFA /* Build configuration list for PBXProject "SwiftWebSockets" */;
+			buildConfigurationList = D6750C8A2CE8BEE1008A5DFA /* Build configuration list for PBXProject "SwiftUIWebSockets" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = D6750CD92CE8D714008A5DFA;
+			mainGroup = D6750C862CE8BEE1008A5DFA;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				D679AB662CE8EC58006CDFEA /* XCRemoteSwiftPackageReference "Starscream" */,
+				D686B1402CE934E300FBDDEB /* XCRemoteSwiftPackageReference "socket" */,
 			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = D6750CE32CE8D714008A5DFA /* Products */;
+			productRefGroup = D6750C902CE8BEE1008A5DFA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D6750CE12CE8D714008A5DFA /* SwiftWebSockets */,
-				D6750CF72CE8D717008A5DFA /* SwiftWebSocketsTests */,
-				D6750D012CE8D717008A5DFA /* SwiftWebSocketsUITests */,
+				D6750C8E2CE8BEE1008A5DFA /* SwiftUIWebSockets */,
+				D6750C9E2CE8BEE3008A5DFA /* SwiftUIWebSocketsTests */,
+				D6750CA82CE8BEE3008A5DFA /* SwiftUIWebSocketsUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D6750CE02CE8D714008A5DFA /* Resources */ = {
+		D6750C8D2CE8BEE1008A5DFA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6750CF62CE8D717008A5DFA /* Resources */ = {
+		D6750C9D2CE8BEE3008A5DFA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6750D002CE8D717008A5DFA /* Resources */ = {
+		D6750CA72CE8BEE3008A5DFA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -254,21 +254,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D6750CDE2CE8D714008A5DFA /* Sources */ = {
+		D6750C8B2CE8BEE1008A5DFA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6750CF42CE8D717008A5DFA /* Sources */ = {
+		D6750C9B2CE8BEE3008A5DFA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6750CFE2CE8D717008A5DFA /* Sources */ = {
+		D6750CA52CE8BEE3008A5DFA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -278,76 +278,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D6750CFA2CE8D717008A5DFA /* PBXTargetDependency */ = {
+		D6750CA12CE8BEE3008A5DFA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D6750CE12CE8D714008A5DFA /* SwiftWebSockets */;
-			targetProxy = D6750CF92CE8D717008A5DFA /* PBXContainerItemProxy */;
+			target = D6750C8E2CE8BEE1008A5DFA /* SwiftUIWebSockets */;
+			targetProxy = D6750CA02CE8BEE3008A5DFA /* PBXContainerItemProxy */;
 		};
-		D6750D042CE8D717008A5DFA /* PBXTargetDependency */ = {
+		D6750CAB2CE8BEE3008A5DFA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D6750CE12CE8D714008A5DFA /* SwiftWebSockets */;
-			targetProxy = D6750D032CE8D717008A5DFA /* PBXContainerItemProxy */;
+			target = D6750C8E2CE8BEE1008A5DFA /* SwiftUIWebSockets */;
+			targetProxy = D6750CAA2CE8BEE3008A5DFA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		D6750D0C2CE8D717008A5DFA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = K6LJCT8RAA;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SwiftWebSockets/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.template.SwiftWebSockets;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		D6750D0D2CE8D717008A5DFA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = K6LJCT8RAA;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SwiftWebSockets/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.template.SwiftWebSockets;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		D6750D0E2CE8D717008A5DFA /* Debug */ = {
+		D6750CB12CE8BEE3008A5DFA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -410,7 +354,7 @@
 			};
 			name = Debug;
 		};
-		D6750D0F2CE8D717008A5DFA /* Release */ = {
+		D6750CB22CE8BEE3008A5DFA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -466,62 +410,105 @@
 			};
 			name = Release;
 		};
-		D6750D112CE8D717008A5DFA /* Debug */ = {
+		D6750CB42CE8BEE3008A5DFA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIWebSockets/Preview Content\"";
 				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				INFOPLIST_FILE = SwiftUIWebSockets/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.template.SwiftWebSocketsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.SwiftUIWebSockets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftWebSockets.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftWebSockets";
 			};
 			name = Debug;
 		};
-		D6750D122CE8D717008A5DFA /* Release */ = {
+		D6750CB52CE8BEE3008A5DFA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIWebSockets/Preview Content\"";
 				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				INFOPLIST_FILE = SwiftUIWebSockets/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.template.SwiftWebSocketsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.SwiftUIWebSockets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftWebSockets.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftWebSockets";
 			};
 			name = Release;
 		};
-		D6750D142CE8D717008A5DFA /* Debug */ = {
+		D6750CB72CE8BEE3008A5DFA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K6LJCT8RAA;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.template.SwiftWebSocketsUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.SwiftUIWebSocketsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SwiftWebSockets;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIWebSockets.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUIWebSockets";
 			};
 			name = Debug;
 		};
-		D6750D152CE8D717008A5DFA /* Release */ = {
+		D6750CB82CE8BEE3008A5DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.SwiftUIWebSocketsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIWebSockets.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUIWebSockets";
+			};
+			name = Release;
+		};
+		D6750CBA2CE8BEE3008A5DFA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -529,50 +516,67 @@
 				DEVELOPMENT_TEAM = K6LJCT8RAA;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.template.SwiftWebSocketsUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.SwiftUIWebSocketsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SwiftWebSockets;
+				TEST_TARGET_NAME = SwiftUIWebSockets;
+			};
+			name = Debug;
+		};
+		D6750CBB2CE8BEE3008A5DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.SwiftUIWebSocketsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftUIWebSockets;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D6750CDD2CE8D714008A5DFA /* Build configuration list for PBXProject "SwiftWebSockets" */ = {
+		D6750C8A2CE8BEE1008A5DFA /* Build configuration list for PBXProject "SwiftUIWebSockets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D6750D0E2CE8D717008A5DFA /* Debug */,
-				D6750D0F2CE8D717008A5DFA /* Release */,
+				D6750CB12CE8BEE3008A5DFA /* Debug */,
+				D6750CB22CE8BEE3008A5DFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D6750D0B2CE8D717008A5DFA /* Build configuration list for PBXNativeTarget "SwiftWebSockets" */ = {
+		D6750CB32CE8BEE3008A5DFA /* Build configuration list for PBXNativeTarget "SwiftUIWebSockets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D6750D0C2CE8D717008A5DFA /* Debug */,
-				D6750D0D2CE8D717008A5DFA /* Release */,
+				D6750CB42CE8BEE3008A5DFA /* Debug */,
+				D6750CB52CE8BEE3008A5DFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D6750D102CE8D717008A5DFA /* Build configuration list for PBXNativeTarget "SwiftWebSocketsTests" */ = {
+		D6750CB62CE8BEE3008A5DFA /* Build configuration list for PBXNativeTarget "SwiftUIWebSocketsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D6750D112CE8D717008A5DFA /* Debug */,
-				D6750D122CE8D717008A5DFA /* Release */,
+				D6750CB72CE8BEE3008A5DFA /* Debug */,
+				D6750CB82CE8BEE3008A5DFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D6750D132CE8D717008A5DFA /* Build configuration list for PBXNativeTarget "SwiftWebSocketsUITests" */ = {
+		D6750CB92CE8BEE3008A5DFA /* Build configuration list for PBXNativeTarget "SwiftUIWebSocketsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D6750D142CE8D717008A5DFA /* Debug */,
-				D6750D152CE8D717008A5DFA /* Release */,
+				D6750CBA2CE8BEE3008A5DFA /* Debug */,
+				D6750CBB2CE8BEE3008A5DFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -580,23 +584,23 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		D679AB662CE8EC58006CDFEA /* XCRemoteSwiftPackageReference "Starscream" */ = {
+		D686B1402CE934E300FBDDEB /* XCRemoteSwiftPackageReference "socket" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/daltoniam/Starscream.git";
+			repositoryURL = "https://github.com/socketio/socket.io-client-swift";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.0.8;
+				branch = master;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D679AB672CE8EC58006CDFEA /* Starscream */ = {
+		D686B1412CE934E300FBDDEB /* SocketIO */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = D679AB662CE8EC58006CDFEA /* XCRemoteSwiftPackageReference "Starscream" */;
-			productName = Starscream;
+			package = D686B1402CE934E300FBDDEB /* XCRemoteSwiftPackageReference "socket" */;
+			productName = SocketIO;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = D6750CDA2CE8D714008A5DFA /* Project object */;
+	rootObject = D6750C872CE8BEE1008A5DFA /* Project object */;
 }
